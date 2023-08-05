@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #111827;
+    text-align: center;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#input-el {
+    width: 317px;
+    height: 118px;
+    background-color: #444059;
+    border-radius: 8px; 
+    outline: none;
+    border: none;
+    flex-shrink: 0;
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+    padding: 10px 20px;
+    word-break: break-word;
+    resize: none;
+}
+
+#txt-btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 320px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    background: #28A9F1;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 6px;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+}
+
+#endorsements {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    color: #1B1924;
+    gap: 12px; 
+    padding-right: 24px;
+}
+
+ul li {
+    background: #FFF;
+    padding: 15px 12px;;
+    width: 310px;
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
